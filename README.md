@@ -11,7 +11,7 @@ Sequences or the _colored logs_ feature may not work!**
 To install this library, type:
 
 ```bash
-pip install pylogger
+pip install pyEventLogger
 ```
 
 in the Command Prompt or Terminal
