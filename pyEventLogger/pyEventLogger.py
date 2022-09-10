@@ -158,13 +158,16 @@ class pyLogger:
     def format_log(self, log_type, format_string):
         """
         Format the Log
-        :param log_type: The log type
+        :param log_type: The log type. Input multiple log types in a list to change at once!
         :param format_string: The format string
         """
-        if log_type in _logging_levels:
-            self.log_format[log_type]['Format'] = self._parse_format_log_text(format_string, False)
-        else:
-            raise Exceptions.LogTypeException(f"Invalid log type given. Use one from {_logging_levels}")
+        if not type(log_type) is list:
+            log_type =  [log_type]
+        for item in log_type:
+            if log_type in _logging_levels:
+                self.log_format[log_type]['Format'] = self._parse_format_log_text(format_string, False)
+            else:
+                raise Exceptions.LogTypeException(f"Invalid log type given. Use one from {_logging_levels}")
 
     def format_log_color(self, log_type, format_string):
         """
