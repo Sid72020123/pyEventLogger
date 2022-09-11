@@ -216,7 +216,8 @@ Thanks to all the contributors(on github):
 * 21/01/2022(v0.5.0) - Updated and added some other features
 * 23/01/2022(v0.7) - Added Exceptions
 * 27/01/2022(v0.9) - Added features to error and critical logs
-* 28/01/2022(v1.0) - Added doc-strings to code\
+* 28/01/2022(v1.0) - Added doc-strings to code
 * 29/01/2022(v1.0) - First Release!
+* 11/09/2022(v1.1) -  Added some new things! Thanks to Quantum-Codes
 
 ## Thank You!
