@@ -1,7 +1,7 @@
-# pyEventLogger v1.0
+# pyEventLogger v1.1
 
-pyEventLogger is a simple Python Library for making customized Logs of certain events that occur in a program. The logs can
-be fully customized and can be printed in colored format or can be stored in a file.
+pyEventLogger is a simple Python Library for making customized Logs of certain events that occur in a program. The logs
+can be fully customized and can be printed in colored format or can be stored in a file.
 
 **Note: Your software or the console in which you are going to print _colored logs_ should support the ANSI Escape
 Sequences or the _colored logs_ feature may not work!**
@@ -201,6 +201,13 @@ while True:
     time.sleep(10)
 
 ```
+
+## Contributors
+
+Thanks to all the contributors(on github):
+
+* Sid72020123
+* Quantum-Codes
 
 ## Change Log:
 
